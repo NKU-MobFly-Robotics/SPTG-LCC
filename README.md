@@ -6,8 +6,8 @@ The data fusion of LiDAR and camera holds vast application prospects, with calib
 ## 当前任务
 
 - [ ] Datasets open-source
-      ![Our self-assembled sensor suite](./img/video_M1_03(3).png)
-      ![Dataset details](./img/video_M1_05.png)
+      ![Our self-assembled sensor suite](./img/Dataset_im.png)
+      ![Dataset details](./img/sensor_suite.png)
 - [ ] 任务 2
 - [ ] 任务 3
 
