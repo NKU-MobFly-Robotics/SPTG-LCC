@@ -20,4 +20,4 @@ our  self-assembled  sensor suites as follows, where the camera is the Realsense
  
  
 # Acknowledgements
-We sincerely appreciate the following open source projects: [DVLC](https://github.com/koide3/direct_visual_lidar_calibration), [KITTI](https://www.cvlibs.net/datasets/kitti/), [lightgle](https://github.com/cvg/LightGlue), [EfficientLoFTR](https://github.com/zju3dv/EfficientLoFTR); [Marigold](https://github.com/prs-eth/Marigold).
+We sincerely appreciate the following open source projects: [DVLC](https://github.com/koide3/direct_visual_lidar_calibration), [KITTI](https://www.cvlibs.net/datasets/kitti/), [lightgle](https://github.com/cvg/LightGlue), [EfficientLoFTR](https://github.com/zju3dv/EfficientLoFTR), [Marigold](https://github.com/prs-eth/Marigold), [Superpoint](https://github.com/rpautrat/SuperPoint)
