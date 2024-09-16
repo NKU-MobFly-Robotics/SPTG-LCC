@@ -20,3 +20,4 @@ our  self-assembled  sensor suites as follows, where the camera is the Realsense
  
  
 # Acknowledgements
+We sincerely appreciate the following open source projects: [DVLC](https://github.com/koide3/direct_visual_lidar_calibration), [KITTI](https://www.cvlibs.net/datasets/kitti/)
