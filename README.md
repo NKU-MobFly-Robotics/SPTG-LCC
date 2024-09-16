@@ -20,9 +20,9 @@ our  self-assembled  sensor suites as follows, where the camera is the Realsense
 - [] FB-LCC-MEMS-M1
 - [] FB-LCC-RS-KITTI-VLP-64 
 ## Code open-source
-- [x] **Docker images tool**
-- [x] main code
-- [x] test code
+- [] **Docker images tool**
+- [] main code
+- [] test code
  
  
 # Acknowledgements
