@@ -4,8 +4,9 @@ The data fusion of LiDAR and camera holds vast application prospects, with calib
 # To-Do List
 
 ## 当前任务
-
-- [ ] 任务 1
+![The pipeline of SPTG-LCC. T](./img/framework_LC.png)
+- [ ] Datasets open-source
+      
 - [ ] 任务 2
 - [ ] 任务 3
 
