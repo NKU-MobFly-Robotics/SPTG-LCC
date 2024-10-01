@@ -16,7 +16,7 @@ our  self-assembled  sensor suites as follows, where the camera is the Realsense
 |--------------------------------------------|--------------------------------------------|
 - [ ] FB-LCC-NS360 :  
 - [ ] FB-LCC-NS70 :
-- [ ] FB-LCC-RS16 : [Baidu Cloud Disk](https://pan.baidu.com/s/1cqg4VAdqK6Zdf-HeuskbGw?pwd=l3jo )
+- [x] FB-LCC-RS16 : [Baidu Cloud Disk](https://pan.baidu.com/s/1cqg4VAdqK6Zdf-HeuskbGw?pwd=l3jo )
 - [x] FB-LCC-MEMS-M1 :  [Baidu Cloud Disk](https://pan.baidu.com/s/1acPQ5RdGDKxyb62OjBmeRA?pwd=zpus )
 - [x] FB-LCC-RS-KITTI-VLP-64 : [Baidu Cloud Disk](https://pan.baidu.com/s/17NBXiui3NjhHaQtuMu_A7w?pwd=qjmp )
 ## Code open-source
