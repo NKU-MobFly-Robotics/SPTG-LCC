@@ -1,0 +1,23 @@
+T_lidar_camera (camera is reference ^C_P=T_LC* ^L_P):
+6.92063e-310 4.67263e-310 6.95306e-310 6.92061e-310
+4.41465e-315 6.95306e-310 4.67274e-310 6.92063e-310
+6.89789e-317 6.92063e-310         -nan 2.47033e-323
+6.95306e-310 6.92063e-310 6.95306e-310            0
+
+T_lidar_camera Quaternion ([x, y, z, w]):
+-nan
+-nan
+-nan
+-nan
+
+T_camera_lidar:
+6.92063e-310 4.41465e-315 6.89789e-317           -0
+4.67263e-310 6.95306e-310 6.92063e-310           -0
+6.95306e-310 4.67274e-310         -nan         -nan
+           0            0            0            1
+
+T_camera_lidarQuaternion:
+-nan
+-nan
+-nan
+-nan

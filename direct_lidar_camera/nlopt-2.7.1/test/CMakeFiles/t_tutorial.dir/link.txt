@@ -1,0 +1,1 @@
+/usr/bin/c++ -std=c++11  -O3 -DNDEBUG -rdynamic CMakeFiles/t_tutorial.dir/t_tutorial.cxx.o -o t_tutorial  -Wl,-rpath,/calib_data/direct_lidar_camera/nlopt-2.7.1 ../libnlopt.so.0.11.1 -lm 

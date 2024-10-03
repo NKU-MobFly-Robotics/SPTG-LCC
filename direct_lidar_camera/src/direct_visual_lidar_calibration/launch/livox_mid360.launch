@@ -1,0 +1,14 @@
+<launch>
+<!-- Launch file for Livox AVIA LiDAR -->
+ 
+	
+    
+	<rosparam command="load" file="$(find direct_visual_lidar_calibration)/config/mid360.yaml" />
+
+	<node pkg="direct_visual_lidar_calibration" type="preprocess" name="preprocess" output="screen" />
+
+	 
+
+	launch-prefix="gdb -ex run --args"
+
+</launch>

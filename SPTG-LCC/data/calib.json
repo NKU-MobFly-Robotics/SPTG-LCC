@@ -1,0 +1,28 @@
+{
+  "camera": {
+    "camera_model": "plumb_bob",
+    "distortion_coeffs": [
+      0.12738026964577068,
+      -0.2475383368037499,
+      0.000549771541173375,
+      0.002756883813194011,
+      0.0
+    ],
+    "intrinsics": [
+      588.9817208252855,
+      590.2390640395754,
+      324.0004924589568,
+      224.0668563262575
+    ]
+  },
+  "meta": {
+    "bag_names": [
+      "2024-09-12-20-06-11.bag"
+    ],
+    "camera_info_topic": "/camera_info",
+    "data_path": "/calib_data/bag/",
+    "image_topic": "/camera/color/image_raw",
+    "intensity_channel": "intensity",
+    "points_topic": "/livox/lidar"
+  }
+}

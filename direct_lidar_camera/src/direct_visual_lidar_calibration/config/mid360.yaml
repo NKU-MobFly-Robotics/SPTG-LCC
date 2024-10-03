@@ -1,0 +1,51 @@
+preprocess:
+    data_path:  "/calib_data/open-source/SPTG-LCC/bag"
+    dst_path:  "/calib_data/open-source/SPTG-LCC/data/"
+    # image_topic:  "/camera/color/image_raw"
+    # # image_topic:  /camera/image_raw
+    # camera_info_topic: "/camera/color/camera_info"
+    image_topic:  "/camera/color/image_raw"
+    camera_info_topic: "/camera_info" #"/kitti/velo/pointcloud" 
+    points_topic: "/livox/lidar"
+    # image_topic:  "/kitti/camera_color_right/image_raw"
+    # camera_info_topic: "/kitti/camera_color_left/camera_info" #"/kitti/velo/pointcloud" 
+    # points_topic: "/kitti/velo/pointcloud"
+    # image_topic:  "/stereo/vehicle_frame_left/image_raw"
+    # camera_info_topic: "/stereo/vehicle_frame_left_image_raw/camera_info" #"/kitti/velo/pointcloud" 
+    # points_topic: "/osve_cloud_node/points"
+    # image_topic:  "/stereo/vehicle_frame_left/image_raw"
+    # camera_info_topic: "/stereo/vehicle_frame_left_image_raw/camera_info" #"/kitti/velo/pointcloud" 
+    # points_topic: "/osve_cloud_node/points"
+    # image_topic:  "/stereo/vehicle_frame_left/image_raw/compressed"
+    # camera_info_topic: "/stereo/vehicle_frame_left/camera_info" #"/kitti/velo/pointcloud" 
+    # points_topic: "/os_cloud_node/points"
+    # points_topic: "/livox/lidar" #  
+    # points_topic: "/velodyne_points" #  
+    min_dis: 0.1  #min_dis
+    auto_topic : False 
+    visualize: True #Whether to enable visualization
+    initial_alignment: True #Whether to use the given initial value
+    cull_hidden_points: False #Whether to use the initial value to remove invisible laser points in the first iteration
+    dynamic_point: False #Repeated scanning laser:True
+    LiDAR_type: 0 # 1 livox 0 no_re
+    Hfov: 600
+    #   Hfov: 400 $FOR VLP-16  Hfov: 150 for 360 60 for kitti
+initial_guess:
+    model: 1                # Livox series LiDAR
+    lidar_type: 1
+    T_L0C0: [0, 0,1,0, 
+             -1,0,0,0,
+             0,-1,0,0,
+             0,0,0,1]  
+    T_CL_init:  [0,1,0,0, 
+                0,0,1,0,
+                1,0,0,0,
+                0,0,0,1]   #相机为参考系
+    T_LC_reference: [ -0.0203145,  -0.00885599,   0.999754,    -0.050747,
+                      -0.999793,   0.00164458 ,  -0.0203007,   0.0704802,
+                      -0.00146439, -0.999959,    -0.00888756 , 0.031837,
+                                0,           0,           0 ,          1]
+
+    visual_culling: True
+ 
+
