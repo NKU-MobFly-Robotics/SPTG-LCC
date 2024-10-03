@@ -409,7 +409,7 @@ class LightGlue(nn.Module):
         if features is not None:
             fname = f"{conf.weights}_{self.version.replace('.', '-')}.pth"
             state_dict = torch.load(
-                 str("/calib_data/open-source/direct_lidar_camera/src/direct_visual_lidar_calibration/scripts/LightGlue/superpoint_lightglue.pth")
+                 str("/calib_data/matcher/LightGlue/superpoint_lightglue.pth")
             )
             self.load_state_dict(state_dict, strict=False)
         elif conf.weights is not None:

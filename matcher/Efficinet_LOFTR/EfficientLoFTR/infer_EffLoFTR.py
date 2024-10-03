@@ -14,11 +14,11 @@ from std_msgs.msg import Int32
 import gc
 from std_srvs.srv import Empty, EmptyResponse, EmptyRequest
 # 定义ros服务器
-data_root = '/calib_data/open-source/direct_lidar_camera/src/direct_visual_lidar_calibration/scripts/LightGlue/DATA/' #### data root
+data_root = '/calib_data/direct_lidar_camera/src/direct_visual_lidar_calibration/scripts/LightGlue/DATA/' #### data root
 print('\033[93m' + '****************************************************************************************************' + '\033[0m')
 print('\033[93m' + '* WARNING: You are going to use LightGlue that is not allowed to be used for commercial purposes!! *' + '\033[0m')
 print('\033[93m' + '****************************************************************************************************' + '\033[0m')
-data_path="/calib_data/open-source/SPTG-LCC/data"
+data_path="/calib_data/SPTG-LCC/data"
 from src.loftr import LoFTR, full_default_cfg, opt_default_cfg, reparameter
 
 # You can choose model type in ['full', 'opt']
@@ -70,7 +70,7 @@ def lightglue_predict():
         matcher = LoFTR(config=_default_cfg)
 
         matcher.load_state_dict(torch.load(
-            "/calib_data/open-source/direct_lidar_camera/src/direct_visual_lidar_calibration/scripts/Efficinet_LOFTR/EfficientLoFTR/weights/eloftr_outdoor.ckpt")[
+            "/calib_data/matcher/Efficinet_LOFTR/EfficientLoFTR/weights/eloftr_outdoor.ckpt")[
                                     'state_dict'])
         matcher = reparameter(matcher)  # no reparameterization will lead to low performance
 
@@ -161,7 +161,7 @@ def lightglue_predict():
                     'Matches: {}'.format(len(mkpts0)),
                 ]
                 fig = make_matching_figure(img00_raw, img11_raw, mkpts0, mkpts1, color, text=text)
-                plt.savefig('/calib_data/open-source/direct_lidar_camera/src/direct_visual_lidar_calibration/scripts/Efficinet_LOFTR/EfficientLoFTR/show/'+bag_name+image_name+"_lightglue.png")
+                #plt.savefig('/calib_data/matcher/Efficinet_LOFTR/EfficientLoFTR/show/'+bag_name+image_name+"_lightglue.png")
    
         torch.cuda.empty_cache()
         gc.collect()

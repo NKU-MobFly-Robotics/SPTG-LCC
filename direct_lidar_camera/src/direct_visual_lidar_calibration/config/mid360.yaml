@@ -1,6 +1,6 @@
 preprocess:
-    data_path:  "/calib_data/open-source/SPTG-LCC/bag"
-    dst_path:  "/calib_data/open-source/SPTG-LCC/data/"
+    data_path:  "/calib_data/SPTG-LCC/bag"
+    dst_path:  "/calib_data/SPTG-LCC/data/"
     # image_topic:  "/camera/color/image_raw"
     # # image_topic:  /camera/image_raw
     # camera_info_topic: "/camera/color/camera_info"

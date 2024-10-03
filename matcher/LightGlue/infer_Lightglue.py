@@ -23,11 +23,11 @@ from std_srvs.srv import Empty, EmptyResponse, EmptyRequest
 np.set_printoptions(precision=8 , suppress=True) ## 8 decimal places are reserved, and Scientific notation is not used
 from pathlib import Path
 import gc
-data_root = '/calib_data/open-source/direct_lidar_camera/src/direct_visual_lidar_calibration/scripts/LightGlue/DATA/' #### data root
+data_root = '/calib_data/direct_lidar_camera/src/direct_visual_lidar_calibration/scripts/LightGlue/DATA/' #### data root
 print('\033[93m' + '****************************************************************************************************' + '\033[0m')
 print('\033[93m' + '* WARNING: You are going to use LightGlue that is not allowed to be used for commercial purposes!! *' + '\033[0m')
 print('\033[93m' + '****************************************************************************************************' + '\033[0m')
-data_path="/calib_data/open-source/SPTG-LCC/data"
+data_path="/calib_data/SPTG-LCC/data"
 GPU_id = 0
 def handle_int_service(req):
     # 接收到请求后的处理逻辑
@@ -169,7 +169,7 @@ def lightglue_predict():
         axes = viz2d.plot_images([camera_image, lidar_image])
         viz2d.plot_matches(points0, points1, color="lime", lw=0.2)
         viz2d.add_text(0, f'Stop after {matches01["stop"]} layers', fs=20)
-        viz2d.save_plot("/calib_data/open-source/show/"+bag_name+image_name+"_lightglue.png")
+        #viz2d.save_plot("/calib_data/show/"+bag_name+image_name+"_lightglue.png")
         # kpc0 = safe_cm_prune(matches01.get("prune0"))
         # kpc1 = safe_cm_prune(matches01.get("prune1"))
         # kpc0, kpc1 = viz2d.cm_prune(matches01["prune0"]), viz2d.cm_prune(matches01["prune1"])

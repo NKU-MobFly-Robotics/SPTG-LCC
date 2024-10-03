@@ -142,7 +142,7 @@ class SuperPoint(Extractor):
         )
 
         # url = "https://github.com/cvg/LightGlue/releases/download/v0.1_arxiv/superpoint_v1.pth"  # noqa
-        self.load_state_dict(torch.load("/calib_data/open-source/direct_lidar_camera/src/direct_visual_lidar_calibration/scripts/LightGlue/superpoint_v1.pth"))
+        self.load_state_dict(torch.load("/calib_data/matcher/LightGlue/superpoint_v1.pth"))
 
         if self.conf.max_num_keypoints is not None and self.conf.max_num_keypoints <= 0:
             raise ValueError("max_num_keypoints must be positive or None")
