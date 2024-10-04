@@ -104,18 +104,6 @@ cd /home/wyw/SPTG-LCC/SPTG-LCC/bag
 
 **test example** : [Baidu Cloud Disk](https://pan.baidu.com/s/14RY8c3Ts27JoXsZjp3G3xQ?pwd=gzsq)  
 
-**test_setup**
-<table>
-  <tr>
-    <td width="20%"></td>
-    <td width="60%" align="center">
-      <img src="./img/test_setup.jpg" alt="Dataset details" width="100%">
-    </td>
-    <td width="20%"></td>
-  </tr>
-</table>
-
- 
 #### 2. Run the script
 ```bash
 cd /home/wyw/SPTG-LCC
@@ -131,7 +119,8 @@ The final result is the latest txt file.
 ```bash
 cd /home/wyw/SPTG-LCC/SPTG-LCC/results
 ```
-![result](./img/result2.png)
+| ![test_setup](./img/test_setup.jpg)|![result](./img/result2.png)|
+|--------------------------------------------|--------------------------------------------|
 #### 4. If you want to see the coloring effect of the point cloud
 ```bash
 chmod +x Alignment_Effect.sh
