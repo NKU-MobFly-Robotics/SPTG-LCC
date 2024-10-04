@@ -56,6 +56,11 @@ conda deactivate
 ```bash
 catkin_make
 ```
-# Acknowledgements
+### 4. matcher weights download
+#### 1. Download EfficientLoFTR weights
+```bash
+cd /home/wyw/SPTG-LCC//matcher/Efficinet_LOFTR/EfficientLoFTR && mkdir weights
+```
+# Acknowledgements  
 - We sincerely appreciate the following open-source projects: [DVLC](https://github.com/koide3/direct_visual_lidar_calibration), [KITTI](https://www.cvlibs.net/datasets/kitti/), [Lightglue](https://github.com/cvg/LightGlue), [Efficient-LoFTR](https://github.com/zju3dv/EfficientLoFTR), [Marigold](https://github.com/prs-eth/Marigold), [Superpoint](https://github.com/rpautrat/SuperPoint). 
 - In particular, our code framework is based on [DVLC(direct_visual_lidar_calibration)](https://github.com/koide3/direct_visual_lidar_calibration), thanks to this great open-source work.
