@@ -86,6 +86,8 @@ mono_depth weights（The entire folder）: [Baidu Cloud Disk](https://pan.baidu.
 ```bash
 cd /home/wyw/SPTG-LCC/SPTG-LCC/bag
 ```
+test example: [Baidu Cloud Disk](https://pan.baidu.com/s/14RY8c3Ts27JoXsZjp3G3xQ?pwd=gzsq)
+**The rosbag needs to contain the camera image topic, the internal reference topic, and the lidar topic.**
 #### 2.Run the script
 ```bash
 ./LiDAR_Camera_calib.sh
