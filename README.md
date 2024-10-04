@@ -20,10 +20,12 @@ our  self-assembled  sensor suites as follows, where the camera is the Realsense
 - [x] FB-LCC-MEMS-M1 :  [Baidu Cloud Disk](https://pan.baidu.com/s/1acPQ5RdGDKxyb62OjBmeRA?pwd=zpus )
 - [x] FB-LCC-RS-KITTI-VLP-64 : [Baidu Cloud Disk](https://pan.baidu.com/s/17NBXiui3NjhHaQtuMu_A7w?pwd=qjmp )
 ## Code open-source
-- [ ] **Docker images tool**
-- [ ] main code
+- [x] **Docker images tool**
+- [x] main code
 - [ ] test code
- 
+## Simplified code and Docker image
+- [ ] Simplified code  
+- [ ] Simplified Docker image
 ## Environment Setup
 ### 1. main code
 ```bash
