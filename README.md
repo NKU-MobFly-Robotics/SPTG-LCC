@@ -79,7 +79,7 @@ superpoint_lightglue [Baidu Cloud Disk](https://pan.baidu.com/s/1Qoin3yFc_2sUnDt
 ```bash
 cd /home/wyw/SPTG-LCC/mono_depth/Marigold/ 
 ```
-mono_depth weights: [Baidu Cloud Disk](https://pan.baidu.com/s/1HfigXw1MaHMo_uBPcEYM-w?pwd=x998)
+mono_depth weights（The entire folder）: [Baidu Cloud Disk](https://pan.baidu.com/s/1HfigXw1MaHMo_uBPcEYM-w?pwd=x998)
 ### 5. Start calibration
 
 #### 1.Put your test bag package into the following folder
