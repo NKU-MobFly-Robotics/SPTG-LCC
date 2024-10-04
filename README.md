@@ -31,7 +31,7 @@ our  self-assembled  sensor suites as follows, where the camera is the Realsense
 - [ ] Simplified Docker image
 ## Important parameter description
 - [ ] parameter description
-# Environment Setup
+# Environment Setup Guide
 ### 1. main code
 ```bash
 git clone https://github.com/NKU-MobFly-Robotics/SPTG-LCC.git
