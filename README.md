@@ -119,6 +119,8 @@ The final result is the latest txt file.
 ```bash
 cd /home/wyw/SPTG-LCC/SPTG-LCC/results
 ```
+
+##### The following is the collection device and calibration results of the above test data
 <table>
   <tr>
     <td width="50%" align="center">
