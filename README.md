@@ -40,11 +40,11 @@ Docker images: [Baidu Cloud Disk](https://pan.baidu.com/s/1eahQgy0xGJfX8Bch13777
 ### 3. catkin_make
 #### 1. Building an Docker Image
 ```bash
-docker import sptg-lcc.tar sptg-lcc:latest
+docker load -i sptg-lcc.tar  
 ```
 #### 2. Building an Docker container from image
 ```bash
-sudo docker run -it -v  /home/wyw/SPTG-LCC:/calib_data -v /tmp/.X11-unix:/tmp/.X11-unix -e DISPLAY=$DISPLAY --net=host -e GDK_SCALE   -e GDK_DPI_SCALE  --privileged --gpus all -e NVIDIA_DRIVER_CAPABILITIES=all --name SPTG-LCC  sptg-lcc:latest   bash
+sudo docker run -it -v  /home/wyw/SPTG-LCC:/calib_data -v /tmp/.X11-unix:/tmp/.X11-unix -e DISPLAY=$DISPLAY --net=host -e GDK_SCALE   -e GDK_DPI_SCALE  --privileged --gpus all -e NVIDIA_DRIVER_CAPABILITIES=all --name SPTG-LCC  sptglcc:latest   bash
 ```
 #### 3. Start Docker Image
 ```bash
