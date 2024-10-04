@@ -77,8 +77,9 @@ cd /home/wyw/SPTG-LCC/mono_depth/Marigold/
 cd /home/wyw/SPTG-LCC/SPTG-LCC/bag
 ```
 #### 2.Run the script
+```bash
 ./LiDAR_Camera_calib.sh
-
+```
 #### 3.The results are saved in the following path
 ```bash
 cd /home/wyw/SPTG-LCC/SPTG-LCC/results
