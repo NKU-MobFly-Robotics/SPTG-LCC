@@ -34,7 +34,7 @@ Assuming the folder where the code is downloaded locally is：
 
 Check the folder where you cloned the code and replace the example folder（**/home/wyw/SPTG-LCC**） in all the following commands
 ### 2. Docker images download
-[Baidu Cloud Disk](https://pan.baidu.com/s/1eahQgy0xGJfX8Bch13777Q?pwd=wqb5)
+Docker images: [Baidu Cloud Disk](https://pan.baidu.com/s/1eahQgy0xGJfX8Bch13777Q?pwd=wqb5)
 ### 3. catkin_make
 #### 1. Building an Docker Image
 ```bash
@@ -64,18 +64,18 @@ Download the weight file and put it in the following folder respectively
 ```bash
 cd /home/wyw/SPTG-LCC/matcher/Efficinet_LOFTR/EfficientLoFTR && mkdir weights
 ```
-[Baidu Cloud Disk](https://pan.baidu.com/s/1NWqDHi0ToYTAiInGXLPouA?pwd=e6x4)
+EfficientLoFTR weights: [Baidu Cloud Disk](https://pan.baidu.com/s/1NWqDHi0ToYTAiInGXLPouA?pwd=e6x4)
 #### 2. Download superpoint-Lightglue weights
 ```bash
 cd /home/wyw/SPTG-LCC/matcher/LightGlue 
 ```
-superpoint: [Baidu Cloud Disk] (https://pan.baidu.com/s/1fSlU3NlwKFXELkonTQvpKA?pwd=52xi)
-superpoint_lightglue [Baidu Cloud Disk] (https://pan.baidu.com/s/1Qoin3yFc_2sUnDt_i9eC-g?pwd=yesa)
+superpoint: [Baidu Cloud Disk](https://pan.baidu.com/s/1fSlU3NlwKFXELkonTQvpKA?pwd=52xi)
+superpoint_lightglue [Baidu Cloud Disk](https://pan.baidu.com/s/1Qoin3yFc_2sUnDt_i9eC-g?pwd=yesa)
 #### 2. Download mono_depth weights
 ```bash
 cd /home/wyw/SPTG-LCC/mono_depth/Marigold/ 
 ```
-[Baidu Cloud Disk] (https://pan.baidu.com/s/1HfigXw1MaHMo_uBPcEYM-w?pwd=x998)
+mono_depth weights: [Baidu Cloud Disk](https://pan.baidu.com/s/1HfigXw1MaHMo_uBPcEYM-w?pwd=x998)
 ### 5. Start calibration
 
 #### 1.Put your test bag package into the following folder
