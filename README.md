@@ -117,6 +117,7 @@ chmod +x Alignment_Effect.sh
 ```bash
 ./Alignment_Effect.sh
 ```
+![color_cloud](./img/color_clound.png)
 ### 6. Note
 If there is no docker on the host, you need to install docker and nvidia-container-toolkit so that docker can perform visualization and call the GPU.
 
