@@ -38,17 +38,21 @@ Docker images: [Baidu Cloud Disk](https://pan.baidu.com/s/1eahQgy0xGJfX8Bch13777
 ### 3. catkin_make
 #### 1. Building an Docker Image
 ```bash
+docker import sptg-lcc.tar sptg-lcc:latest
+```
+#### 2. Building an Docker container from image
+```bash
 sudo docker run -it -v  /home/wyw/SPTG-LCC:/calib_data -v /tmp/.X11-unix:/tmp/.X11-unix -e DISPLAY=$DISPLAY --net=host -e GDK_SCALE   -e GDK_DPI_SCALE  --privileged --gpus all -e NVIDIA_DRIVER_CAPABILITIES=all --name SPTG-LCC  sptg-lcc:latest   bash
 ```
-#### 2. Start Docker Image
+#### 3. Start Docker Image
 ```bash
 sudo docker start SPTG-LCC
 ```
-#### 3. Enter the  Docker Image
+#### 4. Enter the  Docker Image
 ```bash
 sudo docker exec -it  SPTG-LCC bash
 ```
-#### 4. catkin_make code
+#### 5. catkin_make code
 ```bash
 cd /calib_data/direct_lidar_camera
 ```
