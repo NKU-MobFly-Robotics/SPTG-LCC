@@ -62,6 +62,9 @@ cd /calib_data/direct_lidar_camera
 conda deactivate
 ```
 ```bash
+source /opt/ros/noetic/setup.bash
+```
+```bash
 catkin_make
 ```
 ### 4. weights download
