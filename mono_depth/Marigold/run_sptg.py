@@ -36,7 +36,7 @@ from std_msgs.msg import Int32
 from std_srvs.srv import Empty, EmptyResponse
 import gc
 EXTENSION_LIST = [".jpg", ".jpeg", ".png"]
-data_path="/calib_data/open-source/SPTG-LCC/data/"
+data_path="/calib_data/SPTG-LCC/data/"
 
 def handle_int_service(req):
     # 接收到请求后的处理逻辑
