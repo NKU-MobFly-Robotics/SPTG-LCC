@@ -106,10 +106,11 @@ chmod +x LiDAR_Camera_calib.sh
 ./LiDAR_Camera_calib.sh
 ```
 #### 3.The results are saved in the following path
+The final result is the latest txt file.
 ```bash
 cd /home/wyw/SPTG-LCC/SPTG-LCC/results
 ```
-
+![result](./img/result.png)
 #### 4. If you want to see the coloring effect of the point cloud
 ```bash
 chmod +x Alignment_Effect.sh
