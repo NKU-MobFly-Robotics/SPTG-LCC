@@ -31,6 +31,8 @@ git clone https://github.com/NKU-MobFly-Robotics/SPTG-LCC.git
 ```
 Assuming the folder where the code is downloaded locally is：
 **/home/wyw/SPTG-LCC**
+
+Check the folder where you cloned the code and replace the following command：**/home/wyw/SPTG-LCC** 
 ### 2. Docker images download
 
 ### 3. catkin_make
