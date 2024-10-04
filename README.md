@@ -109,6 +109,14 @@ chmod +x LiDAR_Camera_calib.sh
 ```bash
 cd /home/wyw/SPTG-LCC/SPTG-LCC/results
 ```
+
+#### 4. If you want to see the coloring effect of the point cloud
+```bash
+chmod +x Alignment_Effect.sh
+```
+```bash
+./Alignment_Effect.sh
+```
 ### 6. Note
 If there is no docker on the host, you need to install docker and nvidia-container-toolkit so that docker can perform visualization and call the GPU.
 
