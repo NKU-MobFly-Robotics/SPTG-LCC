@@ -756,7 +756,7 @@ bool LI_init_server(direct_visual_lidar_calibration::init_LC::Request& req,
    
     // Fill the response data
   }  
-saveTransformationAndInverse(T_lidar_camera,"/calib_data/open-source/SPTG-LCC/results/calibration_"+getCurrentTimeAsFileName()+".txt");
+saveTransformationAndInverse(T_lidar_camera,"/calib_data/SPTG-LCC/results/calibration_"+getCurrentTimeAsFileName()+".txt");
     return true;
 }
 int main(int argc, char** argv) {
