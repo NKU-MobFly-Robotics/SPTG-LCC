@@ -87,7 +87,7 @@ mono_depth weights（The entire folder）: [Baidu Cloud Disk](https://pan.baidu.
 cd /home/wyw/SPTG-LCC/SPTG-LCC/bag
 ```
 test example: [Baidu Cloud Disk](https://pan.baidu.com/s/14RY8c3Ts27JoXsZjp3G3xQ?pwd=gzsq)
-**The rosbag needs to contain the camera image topic, the internal reference topic, and the lidar topic.**
+**The rosbag needs to contain the camera image topic, the intrinsic parameters topic, and the lidar topic.**
 **Modify your topic name in the yaml file in the config folder**
 /home/wyw/SPTG-LCC、direct_lidar_camera/src/direct_visual_lidar_calibration/config
 #### 2.Run the script
