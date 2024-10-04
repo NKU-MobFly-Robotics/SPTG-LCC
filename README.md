@@ -128,6 +128,11 @@ chmod +x Alignment_Effect.sh
 ```bash
 cd /home/wyw/SPTG-LCC/SPTG-LCC/data
 ```
+|![Dataset details](./img/LiDAR_depth.png)| ![Our self-assembled sensor suite](./img/lidar_intensities.png)|
+|--------------------------------------------|--------------------------------------------|
+
+|![Dataset details](./img/visual_depth.png)| ![Our self-assembled sensor suite](./img/visual_intenstity.png)|
+|--------------------------------------------|--------------------------------------------|
 ### 6. Note
 If there is no docker on the host, you need to install docker and nvidia-container-toolkit so that docker can perform visualization and call the GPU.
 
