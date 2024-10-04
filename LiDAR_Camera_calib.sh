@@ -7,17 +7,17 @@ sleep 1s
 
 # 2. 运行不同的命令
 # 第一个 Python 脚本
-gnome-terminal -t "mono_depth" -x bash -c  "docker exec -it SPTG-LCC bash -c 'source /opt/ros/noetic/setup.bash; source /root/anaconda3/bin/activate lightglue;cd /calib_data/mono_depth/Marigold;python run_sptg.py; exec bash';"
+gnome-terminal -t "mono_depth" -x bash -c  "docker exec -it SPTG-LCC bash -c 'source /opt/ros/noetic/setup.bash; source /opt/anaconda3/etc/profile.d/conda.sh;source /opt/anaconda3/bin/activate lightglue;cd /calib_data/mono_depth/Marigold;python run_sptg.py; exec bash';"
 
 sleep 2s
 
 # 第二个 Python 脚本
-gnome-terminal -t "LightGlue" -x bash -c  "docker exec -it SPTG-LCC bash -c 'cd /calib_data/matcher/LightGlue;source /opt/ros/noetic/setup.bash; source /root/anaconda3/bin/activate lightglue; python infer_Lightglue.py; exec bash';"
+gnome-terminal -t "LightGlue" -x bash -c  "docker exec -it SPTG-LCC bash -c 'cd /calib_data/matcher/LightGlue;source /opt/ros/noetic/setup.bash; source /opt/anaconda3/etc/profile.d/conda.sh;source /opt/anaconda3/bin/activate lightglue; python infer_Lightglue.py; exec bash';"
 
 sleep 2s
 
 # 第三个 Python 脚本
-gnome-terminal -t "Efficinet_LOFTR" -x bash -c  "docker exec -it SPTG-LCC bash -c 'cd /calib_data/matcher/Efficinet_LOFTR/EfficientLoFTR; source /opt/ros/noetic/setup.bash; source /root/anaconda3/bin/activate lightglue; python infer_EffLoFTR.py; exec bash';"
+gnome-terminal -t "Efficinet_LOFTR" -x bash -c  "docker exec -it SPTG-LCC bash -c 'cd /calib_data/matcher/Efficinet_LOFTR/EfficientLoFTR; source /opt/ros/noetic/setup.bash; source /opt/anaconda3/etc/profile.d/conda.sh;source /opt/anaconda3/bin/activate lightglue; python infer_EffLoFTR.py; exec bash';"
 
 sleep 2s
 
