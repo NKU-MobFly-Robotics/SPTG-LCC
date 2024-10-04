@@ -119,8 +119,18 @@ The final result is the latest txt file.
 ```bash
 cd /home/wyw/SPTG-LCC/SPTG-LCC/results
 ```
-| ![test_setup](./img/test_setup.jpg)|![result](./img/result2.png)|
-|--------------------------------------------|--------------------------------------------|
+<table>
+  <tr>
+    <td width="50%" align="center">
+      <img src="./img/test_setup.jpg" alt="test_setup" width="100%">
+    </td>
+    <td width="50%" align="center">
+      <img src="./img/result2.png" alt="result" width="100%">
+    </td>
+  </tr>
+</table>
+
+ 
 #### 4. If you want to see the coloring effect of the point cloud
 ```bash
 chmod +x Alignment_Effect.sh
