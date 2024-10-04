@@ -104,7 +104,7 @@ cd /home/wyw/SPTG-LCC/SPTG-LCC/bag
 
 /home/wyw/SPTG-LCC/direct_lidar_camera/src/direct_visual_lidar_calibration/config
 
-**test Rosbag example** : [Baidu Cloud Disk](https://pan.baidu.com/s/14RY8c3Ts27JoXsZjp3G3xQ?pwd=gzsq)  
+**Rosbag example for testing** : [Baidu Cloud Disk](https://pan.baidu.com/s/14RY8c3Ts27JoXsZjp3G3xQ?pwd=gzsq)  
 
 #### 2. Run the script
 ```bash
