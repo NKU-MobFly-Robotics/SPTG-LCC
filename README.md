@@ -97,6 +97,12 @@ test example: [Baidu Cloud Disk](https://pan.baidu.com/s/14RY8c3Ts27JoXsZjp3G3xQ
 /home/wyw/SPTG-LCC/direct_lidar_camera/src/direct_visual_lidar_calibration/config
 #### 2.Run the script
 ```bash
+cd /home/wyw/SPTG-LCC
+```
+```bash
+chmod +x LiDAR_Camera_calib.sh
+```
+```bash
 ./LiDAR_Camera_calib.sh
 ```
 #### 3.The results are saved in the following path
