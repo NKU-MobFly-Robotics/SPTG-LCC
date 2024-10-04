@@ -59,8 +59,8 @@ conda deactivate
 catkin_make
 ```
 ### 4. weights download
+Download the weight file and put it in the following folder respectively
 #### 1. Download EfficientLoFTR weights 
-Download the weight file and put it in the following folder
 ```bash
 cd /home/wyw/SPTG-LCC/matcher/Efficinet_LOFTR/EfficientLoFTR && mkdir weights
 ```
@@ -107,7 +107,7 @@ https://blog.csdn.net/dw14132124/article/details/140534628?spm=1001.2101.3001.66
 ```
 Successful execution of the following command indicates successful installation
 ```bash
- sudo apt-get install -y nvidia-container-toolkit
+sudo apt-get install -y nvidia-container-toolkit
 ```
 # Acknowledgements  
 - We sincerely appreciate the following open-source projects: [DVLC](https://github.com/koide3/direct_visual_lidar_calibration), [KITTI](https://www.cvlibs.net/datasets/kitti/), [Lightglue](https://github.com/cvg/LightGlue), [Efficient-LoFTR](https://github.com/zju3dv/EfficientLoFTR), [Marigold](https://github.com/prs-eth/Marigold), [Superpoint](https://github.com/rpautrat/SuperPoint). 
