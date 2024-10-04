@@ -105,9 +105,15 @@ cd /home/wyw/SPTG-LCC/SPTG-LCC/bag
 **test example** : [Baidu Cloud Disk](https://pan.baidu.com/s/14RY8c3Ts27JoXsZjp3G3xQ?pwd=gzsq)  
 
 **test_setup**
-|| ![test_setup details](./img/test_setup.jpg) | |
-|--------------------------------------------|--------------------------------------------|--------------------------------------|
- 
+
+<table>
+  <tr>
+    <td width="33%"></td>
+    <td width="33%" align="center"><img src="./img/test_setup.jpg" alt="Dataset details" width="100%"></td>
+    <td width="33%"></td>
+  </tr>
+</table>
+
  
 #### 2. Run the script
 ```bash
