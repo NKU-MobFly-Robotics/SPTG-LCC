@@ -46,7 +46,7 @@ sudo docker start SPTG-LCC
 ```bash
 sudo docker exec -it  SPTG-LCC bash
 ```
-### 5. catkin_make code
+#### 4. catkin_make code
 ```bash
 cd /calib_data/direct_lidar_camera
 ```
