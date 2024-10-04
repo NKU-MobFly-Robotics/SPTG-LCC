@@ -25,8 +25,17 @@ our  self-assembled  sensor suites as follows, where the camera is the Realsense
 - [ ] test code
  
 ## Environment Setup
+###1. main code
 ```bash
 https://github.com/NKU-MobFly-Robotics/SPTG-LCC.git
+```
+Assuming the folder where the code is downloaded locally is：
+/home/wyw/SPTG-LCC
+###2. Docker images download
+
+###3. catkin_make
+```bash
+sudo docker run -it -v /home/wyw/SPTG-LCC:/calib_data -v /tmp/.X11-unix:/tmp/.X11-unix -e DISPLAY=$DISPLAY --net=host -e GDK_SCALE   -e GDK_DPI_SCALE  --privileged --gpus all -e NVIDIA_DRIVER_CAPABILITIES=all --name SPTG-LCC  sptg-lcc:latest   bash
 ```
 # Acknowledgements
 - We sincerely appreciate the following open-source projects: [DVLC](https://github.com/koide3/direct_visual_lidar_calibration), [KITTI](https://www.cvlibs.net/datasets/kitti/), [Lightglue](https://github.com/cvg/LightGlue), [Efficient-LoFTR](https://github.com/zju3dv/EfficientLoFTR), [Marigold](https://github.com/prs-eth/Marigold), [Superpoint](https://github.com/rpautrat/SuperPoint). 
