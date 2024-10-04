@@ -152,10 +152,13 @@ cd /home/wyw/SPTG-LCC/SPTG-LCC/data
 
 |![Dataset details](./img/visual_depth.png)| ![Our self-assembled sensor suite](./img/visual_intenstity.png)|
 |--------------------------------------------|--------------------------------------------|
-### 6. Note
+### 6. Note---Prerequisites
+#### 
+#### 1. ubuntu and ROS
+All the required C++ libraries and python libraries are packaged into the docker image. 
+You only need to have an Ubuntu system (not dependent on a specific version) and have installed the NVIDIA  driver (you can use the **nvidia-smi** command to test it).
+#### 2. Docker 
 If there is no docker on the host, you need to install docker and nvidia-container-toolkit so that docker can perform visualization and call the GPU.
-
-#### 1. Docker 
 ##### Method 1-One-click installation (recommended)
 ```bash
 wget http://fishros.com/install -O fishros && . fishros
@@ -164,7 +167,7 @@ wget http://fishros.com/install -O fishros && . fishros
 ```bash
 https://docs.docker.com/engine/install/ubuntu/#install-using-the-repository
 ```
-#### 2. nvidia-container-toolkit
+#### 3. nvidia-container-toolkit
 ```bash
 https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/latest/install-guide.html
 ```
