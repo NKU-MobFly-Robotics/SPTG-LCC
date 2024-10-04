@@ -152,7 +152,7 @@ cd /home/wyw/SPTG-LCC/SPTG-LCC/data
 
 |![Dataset details](./img/visual_depth.png)| ![Our self-assembled sensor suite](./img/visual_intenstity.png)|
 |--------------------------------------------|--------------------------------------------|
-### 6. Note---Prerequisites
+### 6. Note the prerequisites
 #### 
 #### 1. ubuntu and ROS
 All the required C++ libraries and python libraries are packaged into the docker image. 
