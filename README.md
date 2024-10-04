@@ -105,6 +105,10 @@ https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/latest/install
 ```bash
 https://blog.csdn.net/dw14132124/article/details/140534628?spm=1001.2101.3001.6650.6&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7ERate-6-140534628-blog-140452570.235%5Ev43%5Epc_blog_bottom_relevance_base1&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7ERate-6-140534628-blog-140452570.235%5Ev43%5Epc_blog_bottom_relevance_base1&utm_relevant_index=13
 ```
+Successful execution of the following command indicates successful installation
+```bash
+ sudo apt-get install -y nvidia-container-toolkit
+```
 # Acknowledgements  
 - We sincerely appreciate the following open-source projects: [DVLC](https://github.com/koide3/direct_visual_lidar_calibration), [KITTI](https://www.cvlibs.net/datasets/kitti/), [Lightglue](https://github.com/cvg/LightGlue), [Efficient-LoFTR](https://github.com/zju3dv/EfficientLoFTR), [Marigold](https://github.com/prs-eth/Marigold), [Superpoint](https://github.com/rpautrat/SuperPoint). 
 - In particular, our code framework is based on [DVLC(direct_visual_lidar_calibration)](https://github.com/koide3/direct_visual_lidar_calibration), thanks to this great open-source work.
