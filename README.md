@@ -27,7 +27,7 @@ our  self-assembled  sensor suites as follows, where the camera is the Realsense
 ## Environment Setup
 ### 1. main code
 ```bash
-https://github.com/NKU-MobFly-Robotics/SPTG-LCC.git
+git clone https://github.com/NKU-MobFly-Robotics/SPTG-LCC.git
 ```
 Assuming the folder where the code is downloaded locally is：
 **/home/wyw/SPTG-LCC**
