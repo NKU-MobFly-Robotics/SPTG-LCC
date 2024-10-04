@@ -155,7 +155,7 @@ cd /home/wyw/SPTG-LCC/SPTG-LCC/data
 ### 6. Note
 If there is no docker on the host, you need to install docker and nvidia-container-toolkit so that docker can perform visualization and call the GPU.
 
-#### 1.Docker 
+#### 1. Docker 
 ##### Method 1-One-click installation (recommended)
 ```bash
 wget http://fishros.com/install -O fishros && . fishros
