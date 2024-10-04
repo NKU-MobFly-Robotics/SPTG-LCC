@@ -124,6 +124,10 @@ chmod +x Alignment_Effect.sh
 ./Alignment_Effect.sh
 ```
 ![color_cloud](./img/color_clound.png)
+#### 5. If you want to view laser images and visual images
+```bash
+cd /home/wyw/SPTG-LCC/SPTG-LCC/data
+```
 ### 6. Note
 If there is no docker on the host, you need to install docker and nvidia-container-toolkit so that docker can perform visualization and call the GPU.
 
