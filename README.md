@@ -29,6 +29,8 @@ our  self-assembled  sensor suites as follows, where the camera is the Realsense
 ## Simplified code and Docker image
 - [ ] Simplified code  
 - [ ] Simplified Docker image
+## Important parameter description
+- [ ] parameter description
 ## Environment Setup
 ### 1. main code
 ```bash
