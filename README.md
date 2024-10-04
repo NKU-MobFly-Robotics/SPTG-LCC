@@ -92,7 +92,7 @@ cd /home/wyw/SPTG-LCC/mono_depth/Marigold/
 mono_depth weights（The entire folder）: [Baidu Cloud Disk](https://pan.baidu.com/s/1HfigXw1MaHMo_uBPcEYM-w?pwd=x998)
 ### 5. Start calibration
 
-#### 1.Put your test bag package into the following folder
+#### 1. Put your test bag package into the following folder
 ```bash
 cd /home/wyw/SPTG-LCC/SPTG-LCC/bag
 ```
@@ -105,8 +105,8 @@ cd /home/wyw/SPTG-LCC/SPTG-LCC/bag
 **test example** : [Baidu Cloud Disk](https://pan.baidu.com/s/14RY8c3Ts27JoXsZjp3G3xQ?pwd=gzsq)  
 
 **test_setup**
-![test_setup details](./img/test_setup.jpg)|
-#### 2.Run the script
+![test_setup details](./img/test_setup.jpg){width=300}
+#### 2. Run the script
 ```bash
 cd /home/wyw/SPTG-LCC
 ```
@@ -116,7 +116,7 @@ chmod +x LiDAR_Camera_calib.sh
 ```bash
 ./LiDAR_Camera_calib.sh
 ```
-#### 3.The results are saved in the following path
+#### 3. The results are saved in the following path
 The final result is the latest txt file.
 ```bash
 cd /home/wyw/SPTG-LCC/SPTG-LCC/results
