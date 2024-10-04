@@ -1,1 +1,2 @@
 matcher filter=lfs diff=lfs merge=lfs -text
+*.c linguist-language=C++
