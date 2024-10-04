@@ -105,9 +105,9 @@ cd /home/wyw/SPTG-LCC/SPTG-LCC/bag
 **test example** : [Baidu Cloud Disk](https://pan.baidu.com/s/14RY8c3Ts27JoXsZjp3G3xQ?pwd=gzsq)  
 
 **test_setup**
-
-![test_setup details](./img/test_setup.jpg)
-|--------------------------------------------|--------------------------------------------|
+ 
+||![test_setup details](./img/test_setup.jpg)||
+ 
 #### 2. Run the script
 ```bash
 cd /home/wyw/SPTG-LCC
