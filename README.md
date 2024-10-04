@@ -141,7 +141,7 @@ chmod +x Alignment_Effect.sh
 ./Alignment_Effect.sh
 ```
 ![color_cloud](./img/color_clound.png)
-#### 5. If you want to view laser images and visual images
+#### 5. If you want to view LiDAR images and visual images
 ```bash
 cd /home/wyw/SPTG-LCC/SPTG-LCC/data
 ```
