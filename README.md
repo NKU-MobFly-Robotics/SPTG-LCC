@@ -56,11 +56,34 @@ conda deactivate
 ```bash
 catkin_make
 ```
-### 4. matcher weights download
-#### 1. Download EfficientLoFTR weights
+### 4. weights download
+#### 1. Download EfficientLoFTR weights 
+Download the weight file and put it in the following folder
 ```bash
-cd /home/wyw/SPTG-LCC//matcher/Efficinet_LOFTR/EfficientLoFTR && mkdir weights
+cd /home/wyw/SPTG-LCC/matcher/Efficinet_LOFTR/EfficientLoFTR && mkdir weights
 ```
+#### 2. Download Lightglue weights
+```bash
+cd /home/wyw/SPTG-LCC/matcher/LightGlue 
+```
+#### 2. Download mono_depth weights
+```bash
+cd /home/wyw/SPTG-LCC/mono_depth/Marigold/ 
+```
+### 5. Start calibration
+
+#### 1.Put your test bag package into the following folder
+```bash
+cd /home/wyw/SPTG-LCC/SPTG-LCC/bag
+```
+#### 2.Run the script
+./LiDAR_Camera_calib.sh
+
+#### 3.The results are saved in the following path
+```bash
+cd /home/wyw/SPTG-LCC/SPTG-LCC/results
+```
+
 # Acknowledgements  
 - We sincerely appreciate the following open-source projects: [DVLC](https://github.com/koide3/direct_visual_lidar_calibration), [KITTI](https://www.cvlibs.net/datasets/kitti/), [Lightglue](https://github.com/cvg/LightGlue), [Efficient-LoFTR](https://github.com/zju3dv/EfficientLoFTR), [Marigold](https://github.com/prs-eth/Marigold), [Superpoint](https://github.com/rpautrat/SuperPoint). 
 - In particular, our code framework is based on [DVLC(direct_visual_lidar_calibration)](https://github.com/koide3/direct_visual_lidar_calibration), thanks to this great open-source work.
