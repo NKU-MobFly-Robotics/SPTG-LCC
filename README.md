@@ -152,9 +152,12 @@ cd /home/wyw/SPTG-LCC/SPTG-LCC/data
 
 |![Dataset details](./img/visual_depth.png)| ![Our self-assembled sensor suite](./img/visual_intenstity.png)|
 |--------------------------------------------|--------------------------------------------|
-#### 6. Additionally, we release a motion-based coarse calibration tool for the LiDAR camera extrinsic parameters to cope with some extreme installation cases, aiming to provide a rough initial guess.
+#### 6. Optional motion-based initial guess
+**Additionally, we release a motion-based coarse calibration tool for the LiDAR camera extrinsic parameters to cope with some extreme installation cases, aiming to provide a rough initial guess.**
+
+
 The Github repository link is as follows: 
-[LCC_init](https://github.com/af-doom/LCC_init)
+[LCC_init](https://github.com/af-doom/LCC_init) ：https://github.com/af-doom/LCC_init
 ### 6. Note the prerequisites
 #### 
 #### 1. ubuntu and ROS
