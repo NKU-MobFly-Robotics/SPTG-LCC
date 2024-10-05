@@ -153,8 +153,9 @@ cd /home/wyw/SPTG-LCC/SPTG-LCC/data
 |![Dataset details](./img/visual_depth.png)| ![Our self-assembled sensor suite](./img/visual_intenstity.png)|
 |--------------------------------------------|--------------------------------------------|
 #### 6. Optional motion-based initial guess
-**Additionally, we release a motion-based coarse calibration tool for the LiDAR camera extrinsic parameters to cope with some extreme installation cases, aiming to provide a rough initial guess.**
-
+ 
+**In addition, to deal with the problem of calibration failure in some extreme installation situations, we have released a motion-based LiDAR camera extrinsic parameters coarse calibration tool, 
+which aims to provide a rough initial guess, and users can continue to use SPTG-LCC to complete the calibration based on the initial guess. This initial guess is fully automatic.**
 
 The Github repository link is as follows: 
 [LCC_init](https://github.com/af-doom/LCC_init) ：https://github.com/af-doom/LCC_init
