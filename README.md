@@ -26,6 +26,7 @@ our  self-assembled  sensor suites as follows, where the camera is the Realsense
 - [x] **Docker images tool** : **Completed**
 - [x] main code : **Completed**
 - [ ] test code
+- [x] Optional motion-based initial guess : **Completed**
 ## Simplified code and Docker image
 - [ ] Simplified code  
 - [ ] Simplified Docker image
