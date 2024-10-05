@@ -159,6 +159,7 @@ which aims to provide a rough initial guess, and users can continue to use SPTG-
 
 The Github repository link is as follows: 
 [LCC_init](https://github.com/af-doom/LCC_init) ：https://github.com/af-doom/LCC_init
+![LIC_Init](./img/LIC_Init.png)
 ### 6. Note the prerequisites
 #### 
 #### 1. ubuntu and ROS
